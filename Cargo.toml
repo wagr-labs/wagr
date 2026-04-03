@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "src/outcome-engine",
+    "src/lmsr-amm",
+    "src/oracle-resolver",
+    "src/reputation-module",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+authors = ["WAGR Protocol Contributors"]
+
+[workspace.dependencies]
+thiserror = "1.0"
+num-traits = "0.2"
+num-derive = "0.4"
+serde = { version = "1.0", features = ["derive"] }

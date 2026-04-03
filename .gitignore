@@ -1,0 +1,12 @@
+target/
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+# generator scripts must never reach the public mirror
+main.py
+generator.py
+builder.py
+*-generator.py
+*-builder.py
