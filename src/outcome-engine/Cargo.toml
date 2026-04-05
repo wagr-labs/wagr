@@ -1,0 +1,15 @@
+[package]
+name = "wagr-outcome-engine"
+description = "Outcome Token + Conditional Token Framework core."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+thiserror.workspace = true
+num-traits.workspace = true
+num-derive.workspace = true
