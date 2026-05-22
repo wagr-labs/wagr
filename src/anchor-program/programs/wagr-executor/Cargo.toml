@@ -1,0 +1,23 @@
+[package]
+name = "wagr-executor"
+description = "Solana mainnet outcome executor + dispute resolver."
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "wagr_executor"
+
+[features]
+no-entrypoint = []
+no-idl = []
+default = []
+
+[dependencies]
+anchor-lang = "0.31.0"
+anchor-spl = "0.31.0"
+wagr-outcome-engine = { path = "../../../outcome-engine" }
+wagr-lmsr-amm = { path = "../../../lmsr-amm" }
+wagr-oracle-resolver = { path = "../../../oracle-resolver" }
+wagr-reputation-module = { path = "../../../reputation-module" }
