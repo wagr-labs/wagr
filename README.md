@@ -2,12 +2,13 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-D4AF37.svg)](./LICENSE)
 [![Build](https://img.shields.io/badge/build-passing-5BC0EB.svg)](#)
-[![Solana](https://img.shields.io/badge/Solana-mainnet-FFD93D.svg)](https://explorer.solana.com)
+[![Solana](https://img.shields.io/badge/Solana-devnet-FFD93D.svg)](https://explorer.solana.com/address/GreSDUbtzBpDRgCYo9sXGZbFDM3HXFQWTdeAacF8HDEc?cluster=devnet)
 [![Anchor](https://img.shields.io/badge/Anchor-0.31-F5F2E8.svg)](https://www.anchor-lang.com)
 [![Rust](https://img.shields.io/badge/Rust-1.95-3D2E5C.svg)](https://www.rust-lang.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-5BC0EB.svg)](https://www.typescriptlang.org)
 [![Docs](https://img.shields.io/badge/docs-online-D4AF37.svg)](#documentation)
-[![Site](https://img.shields.io/badge/site-wagr.fi-FFD93D.svg)](#)
+[![Site](https://img.shields.io/badge/site-wagr.fi-FFD93D.svg)](https://wagr.fi)
+[![X](https://img.shields.io/badge/X-@wagrfi-F5F2E8.svg)](https://x.com/wagrfi)
 
 > Bet the truth.
 
