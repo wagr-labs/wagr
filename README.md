@@ -75,6 +75,26 @@ wagr split --market 1 --amount 100
 wagr propose --market 1 --outcome 0 --bond 1000000
 ```
 
+## Clients & Status
+
+Live surfaces:
+
+| Surface | State | Where |
+|---|---|---|
+| Web (landing + Designer + Markets + Docs) | live | https://wagr.fi |
+| `wagr-cli` | live on npm | `npm i -g wagr-cli` &mdash; https://www.npmjs.com/package/wagr-cli |
+| `@wagrlabs/sdk` | live on npm | `npm i @wagrlabs/sdk` &mdash; https://www.npmjs.com/package/@wagrlabs/sdk |
+| Anchor program | live on **Solana devnet** (mainnet pending) | [`GreSDUbtzBpDRgCYo9sXGZbFDM3HXFQWTdeAacF8HDEc`](https://explorer.solana.com/address/GreSDUbtzBpDRgCYo9sXGZbFDM3HXFQWTdeAacF8HDEc?cluster=devnet) |
+
+In development:
+
+| Surface | State |
+|---|---|
+| Mobile app (`packages/mobile-app`, Solana Mobile SDK) | in development, not published |
+| Telegram bot (`packages/telegram-bot`) | in development, not yet running on a public bot |
+
+The architecture diagram above draws Mobile and Telegram as clients because the SDK is wired for them; the surfaces themselves are not yet shipped. The CLI's `create` command is an honest **dry-run preview** today (it prints the instruction body and the chosen accounts; it does not submit on chain).
+
 ## Reading List
 
 Designed by reading -- and citing -- the foundational papers in prediction markets:
