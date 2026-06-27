@@ -1,0 +1,41 @@
+{
+  "name": "@wagrlabs/sdk",
+  "version": "0.1.0",
+  "description": "WAGR TypeScript SDK -- Solana prediction market client + LMSR helpers + UMA Oracle hooks.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./lmsr": {
+      "import": "./dist/lmsr.js",
+      "types": "./dist/lmsr.d.ts"
+    },
+    "./oracle": {
+      "import": "./dist/oracle.js",
+      "types": "./dist/oracle.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node --experimental-vm-modules --test ./dist/*.test.js"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.0",
+    "@solana/web3.js": "^1.95.5",
+    "@solana/spl-token": "^0.4.9",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "typescript": "^5.7.3"
+  }
+}
