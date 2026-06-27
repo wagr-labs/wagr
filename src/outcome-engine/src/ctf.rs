@@ -8,8 +8,8 @@
 //!   `amount` of collateral. Losing outcomes redeem to zero.
 //!
 //! This file is pure logic -- the Anchor program calls into these helpers from
-//! its instruction handlers so the rules cannot drift between simulation and
-//! mainnet.
+//! its instruction handlers so the rules cannot drift between simulation and the
+//! on-chain build (devnet today, mainnet pending).
 
 use crate::errors::{OutcomeError, Result};
 use crate::fixed::{fee_multiplier, BPS_FACTOR};

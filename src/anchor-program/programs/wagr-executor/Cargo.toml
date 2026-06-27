@@ -1,6 +1,6 @@
 [package]
 name = "wagr-executor"
-description = "Solana mainnet outcome executor + dispute resolver."
+description = "Solana outcome executor + dispute resolver (devnet; mainnet pending)."
 version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"

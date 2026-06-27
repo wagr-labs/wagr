@@ -58,7 +58,7 @@ flowchart LR
 | [`lmsr-amm`](./src/lmsr-amm) | Hanson 2003 LMSR pricing |
 | [`oracle-resolver`](./src/oracle-resolver) | UMA-style optimistic + Pyth + consensus |
 | [`reputation-module`](./src/reputation-module) | Dispute DVM with $WAGR slashing |
-| [`anchor-program`](./src/anchor-program) | Solana mainnet executor |
+| [`anchor-program`](./src/anchor-program) | Solana executor (devnet; mainnet pending) |
 
 ## Quick Tour
 
@@ -93,7 +93,7 @@ src/
 ├── lmsr-amm/              Hanson 2003 LMSR + CPMM hybrid
 ├── oracle-resolver/       UMA optimistic + Pyth + consensus
 ├── reputation-module/     Dispute DVM + slashing
-├── anchor-program/        Solana mainnet executor
+├── anchor-program/        Solana executor (devnet; mainnet pending)
 └── sdk/                   TypeScript developer SDK
 ```
 
