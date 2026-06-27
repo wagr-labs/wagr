@@ -1,20 +1,26 @@
-# WAGR -- Solana Prediction Market Standard
+<p align="center">
+  <img src="./assets/hero.png" alt="WAGR -- Solana Prediction Market Standard. Oracle temple at dusk." width="100%">
+</p>
 
-[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-D4AF37.svg)](./LICENSE)
-[![Build](https://img.shields.io/badge/build-passing-5BC0EB.svg)](#)
-[![Solana](https://img.shields.io/badge/Solana-devnet-FFD93D.svg)](https://explorer.solana.com/address/GreSDUbtzBpDRgCYo9sXGZbFDM3HXFQWTdeAacF8HDEc?cluster=devnet)
-[![Anchor](https://img.shields.io/badge/Anchor-0.31-F5F2E8.svg)](https://www.anchor-lang.com)
-[![Rust](https://img.shields.io/badge/Rust-1.95-3D2E5C.svg)](https://www.rust-lang.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-5BC0EB.svg)](https://www.typescriptlang.org)
-[![Docs](https://img.shields.io/badge/docs-online-D4AF37.svg)](#documentation)
-[![Site](https://img.shields.io/badge/site-wagr.fi-FFD93D.svg)](https://wagr.fi)
-[![X](https://img.shields.io/badge/X-@wagrfi-F5F2E8.svg)](https://x.com/wagrfi)
-[![npm wagr-cli](https://img.shields.io/npm/v/wagr-cli?label=wagr-cli&color=D4AF37)](https://www.npmjs.com/package/wagr-cli)
-[![npm @wagrlabs/sdk](https://img.shields.io/npm/v/%40wagrlabs%2Fsdk?label=%40wagrlabs%2Fsdk&color=FF8C00)](https://www.npmjs.com/package/@wagrlabs/sdk)
+<h1 align="center">WAGR &mdash; Solana Prediction Market Standard</h1>
 
-> Bet the truth.
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-D4AF37.svg" alt="License Apache 2.0"></a>
+  <a href="#"><img src="https://img.shields.io/badge/build-passing-5BC0EB.svg" alt="Build passing"></a>
+  <a href="https://explorer.solana.com/address/GreSDUbtzBpDRgCYo9sXGZbFDM3HXFQWTdeAacF8HDEc?cluster=devnet"><img src="https://img.shields.io/badge/Solana-devnet-FFD93D.svg" alt="Solana devnet"></a>
+  <a href="https://www.anchor-lang.com"><img src="https://img.shields.io/badge/Anchor-0.31-F5F2E8.svg" alt="Anchor 0.31"></a>
+  <a href="https://www.rust-lang.org"><img src="https://img.shields.io/badge/Rust-1.95-3D2E5C.svg" alt="Rust 1.95"></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-5.7-5BC0EB.svg" alt="TypeScript 5.7"></a>
+  <a href="#documentation"><img src="https://img.shields.io/badge/docs-online-D4AF37.svg" alt="Docs"></a>
+  <a href="https://wagr.fi"><img src="https://img.shields.io/badge/site-wagr.fi-FFD93D.svg" alt="Site wagr.fi"></a>
+  <a href="https://x.com/wagrfi"><img src="https://img.shields.io/badge/X-@wagrfi-F5F2E8.svg" alt="X @wagrfi"></a>
+  <a href="https://www.npmjs.com/package/wagr-cli"><img src="https://img.shields.io/npm/v/wagr-cli?label=wagr-cli&color=D4AF37" alt="npm wagr-cli"></a>
+  <a href="https://www.npmjs.com/package/@wagrlabs/sdk"><img src="https://img.shields.io/npm/v/%40wagrlabs%2Fsdk?label=%40wagrlabs%2Fsdk&color=FF8C00" alt="npm @wagrlabs/sdk"></a>
+</p>
 
-Solana's first prediction market standard. One Anchor program, five outcome modules, three client surfaces.
+<p align="center"><em>Bet the truth.</em></p>
+
+<p align="center">Solana's first prediction market standard. One Anchor program, five outcome modules, three client surfaces.</p>
 
 ## Why WAGR
 
