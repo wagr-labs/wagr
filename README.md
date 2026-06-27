@@ -9,6 +9,8 @@
 [![Docs](https://img.shields.io/badge/docs-online-D4AF37.svg)](#documentation)
 [![Site](https://img.shields.io/badge/site-wagr.fi-FFD93D.svg)](https://wagr.fi)
 [![X](https://img.shields.io/badge/X-@wagrfi-F5F2E8.svg)](https://x.com/wagrfi)
+[![npm wagr-cli](https://img.shields.io/npm/v/wagr-cli?label=wagr-cli&color=D4AF37)](https://www.npmjs.com/package/wagr-cli)
+[![npm @wagrlabs/sdk](https://img.shields.io/npm/v/%40wagrlabs%2Fsdk?label=%40wagrlabs%2Fsdk&color=FF8C00)](https://www.npmjs.com/package/@wagrlabs/sdk)
 
 > Bet the truth.
 
@@ -63,10 +65,11 @@ flowchart LR
 ```bash
 # Trade-side
 cargo test --workspace
-pnpm --filter @wagr/sdk build
+pnpm --filter @wagrlabs/sdk build
 
 # CLI
 npm i -g wagr-cli
+npm i @wagrlabs/sdk
 wagr quote --qs 0,0 --b 1000 --outcome 0 --shares 100
 wagr split --market 1 --amount 100
 wagr propose --market 1 --outcome 0 --bond 1000000
