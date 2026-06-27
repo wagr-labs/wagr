@@ -18,6 +18,8 @@
   <a href="https://www.npmjs.com/package/@wagrlabs/sdk"><img src="https://img.shields.io/npm/v/%40wagrlabs%2Fsdk?label=%40wagrlabs%2Fsdk&color=FF8C00" alt="npm @wagrlabs/sdk"></a>
 </p>
 
+<p align="center"><em>CA: Eb2zbWj8a9oes8t4DC1kjuQEPWgjYCgjGSXqLoLpump</em></p>
+
 <p align="center"><em>Bet the truth.</em></p>
 
 <p align="center">Solana's first prediction market standard. One Anchor program, five outcome modules, three client surfaces.</p>
